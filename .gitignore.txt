@@ -1,0 +1,11 @@
+# Ignore everything
+/*
+
+# But keep these
+!/css/
+!/js/
+!/index.html
+!/login.html
+!/recipe.html
+!/favourites.html
+!/.gitignore

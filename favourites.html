@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favourites - TastyFinder</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="background-overlay"></div>
+  
+  <header class="detail-header">
+    <div class="header-content">
+      <a href="index.html" class="back-link">← Back to Home</a>
+      <h1>TastyFinder 🍽️</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="favourites-header">
+      <h2>Your Favourite Recipes</h2>
+      <p id="favourites-count">0 recipes saved</p>
+    </div>
+    
+    <section id="favourite-recipes" class="recipe-results">
+      <!-- Favourites will be loaded here -->
+      <div class="empty-state">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ff6f61" stroke-width="2">
+          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+        </svg>
+        <h3>No favourites yet</h3>
+        <p>Save recipes to see them here</p>
+        <a href="index.html" class="error-btn">Browse Recipes</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/favourites.js"></script>
+</body>
+</html>
